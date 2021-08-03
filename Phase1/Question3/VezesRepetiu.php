@@ -25,7 +25,7 @@ function fillRandValues(array &$array, int $limit = 20, int $minimumRange = 1, i
  * @param int $biggestOcurrency The value which appears more times.
  * @param array $base array with different integer values
  */
-function timesRepeat(int &$biggestValueOcurrency, int &$biggestOcurrency, array $base): void
+function vezesRepetiu(int &$biggestValueOcurrency, int &$biggestOcurrency, array $base): void
 {
     $groupValues = array_count_values($base);
     $biggestOcurrency = max($groupValues);
@@ -42,5 +42,5 @@ fillRandValues($array);
 $biggestOcurrency = 0;
 $biggestValueOcurrency = 0;
 
-timesRepeat($biggestValueOcurrency, $biggestOcurrency, $array);
+vezesRepetiu($biggestValueOcurrency, $biggestOcurrency, $array);
 echo "O número que mais se repete é o {$biggestValueOcurrency}.\nEle se repete {$biggestOcurrency} vezes.";
