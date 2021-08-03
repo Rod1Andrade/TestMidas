@@ -5,7 +5,7 @@ Olá me chamo Rodrigo Andrade e esse repositório é destinado aos códigos do t
 
 <hr >
 
-Tecnologias: ``PHP`` ``Phancon PHP framework``
+Tecnologias: ``PHP`` ``Phalcon PHP framework``
 
 ## Expectativa
 
