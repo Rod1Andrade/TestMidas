@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8093182-02f5-440f-a96c-4f58f84a847e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/views/content.twig.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/views/content.twig.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +158,7 @@
       <updated>1628299455423</updated>
       <workItem from="1628299456592" duration="6397000" />
       <workItem from="1628344576433" duration="11930000" />
-      <workItem from="1628460578352" duration="19125000" />
+      <workItem from="1628460578352" duration="20321000" />
     </task>
     <servers />
   </component>
