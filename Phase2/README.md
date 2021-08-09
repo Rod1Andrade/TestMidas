@@ -8,7 +8,7 @@
 $ git clone https://github.com/Rod1Andrade/TestMidas.git
 ```
 
-2. Acesse a pasta do projeto e rode o comando de instação do composer.
+2. Acesse a pasta do projeto e rode o comando de instalação do composer.
 ```shell
 $ cd TestMidas
 $ cd Phase2
