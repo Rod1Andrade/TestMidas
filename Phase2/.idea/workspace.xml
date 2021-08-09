@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8093182-02f5-440f-a96c-4f58f84a847e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Phase2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Phase2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/14b3787a-cbc3-49a2-b72e-e3bb9fce23c7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/14b3787a-cbc3-49a2-b72e-e3bb9fce23c7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/14b3787a-cbc3-49a2-b72e-e3bb9fce23c7/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/14b3787a-cbc3-49a2-b72e-e3bb9fce23c7/entities/entities.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/14b3787a-cbc3-49a2-b72e-e3bb9fce23c7/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/14b3787a-cbc3-49a2-b72e-e3bb9fce23c7/entities/entities.dat.values" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/14b3787a-cbc3-49a2-b72e-e3bb9fce23c7/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/14b3787a-cbc3-49a2-b72e-e3bb9fce23c7/entities/entities.dat.values.s" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/14b3787a-cbc3-49a2-b72e-e3bb9fce23c7/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/14b3787a-cbc3-49a2-b72e-e3bb9fce23c7/entities/entities.dat_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Database/Connections/Connection.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Database/Connections/MySqlConnection.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Http/Controllers/AppController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Repositories/AppRepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/views/content.twig.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/views/nav.twig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +93,7 @@
       <workItem from="1628344576433" duration="11930000" />
       <workItem from="1628460578352" duration="35713000" />
       <workItem from="1628521322091" duration="9000" />
-      <workItem from="1628538768020" duration="3757000" />
+      <workItem from="1628538768020" duration="4358000" />
     </task>
     <servers />
   </component>

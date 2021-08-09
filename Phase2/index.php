@@ -82,7 +82,7 @@ function buildMenuHTML(array $menuArray): void
 {
     echo "<ul>";
     foreach ($menuArray as $menuItem) {
-        echo "<li>{$menuItem->Titulo}</li>";
+        echo "<li><a href='#'>{$menuItem->Titulo}</a></li>";
         if(is_array($menuItem->sub)) {
             buildMenuHTML($menuItem->sub);
         }
