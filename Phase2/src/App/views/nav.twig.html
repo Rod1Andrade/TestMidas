@@ -1,0 +1,17 @@
+<!--
+Navigation Ul and Li function.
+@author Rodrigo Andrade
+-->
+{% macro menu_builder(items) %}
+{% import _self as m %}
+{% if items %}
+<ul>
+  {% for i in items %}
+  <li>
+    <a href="#">{{ i.title }}</a>
+    {{ m.menu_builder(i.sub) }}
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
+{% endmacro %}

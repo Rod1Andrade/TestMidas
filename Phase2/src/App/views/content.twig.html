@@ -7,23 +7,11 @@
 </head>
 <body>
 
-{% macro menu_builder(items) %}
-{% import _self as m %}
-{% if items %}
-<ul>
-    {% for i in items %}
-    <li>
-        <a href="#">{{ i.title }}</a>
-        {{ m.menu_builder(i.sub) }}
-    </li>
-    {% endfor %}
-</ul>
-{% endif %}
-{% endmacro %}
-
-<ul>
-    {{ _self.menu_builder(data) }}
-</ul>
+<!-- Navigation build by nav.twig.html macro -->
+{% import "nav.twig.html" as nav %}
+<nav>
+    {{ nav.menu_builder(data) }}
+</nav>
 
 </body>
 </html>
