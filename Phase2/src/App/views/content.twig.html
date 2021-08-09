@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ptBr">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Midas - Content Menu Problem</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+{% macro menu_builder(items) %}
+{% import _self as m %}
+{% if items %}
+<ul>
+    {% for i in items %}
+    <li>
+        <a href="#">{{ i.title }}</a>
+        {{ m.menu_builder(i.sub) }}
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}
+{% endmacro %}
+
+<ul>
+    {{ _self.menu_builder(data) }}
+</ul>
+
+</body>
+</html>

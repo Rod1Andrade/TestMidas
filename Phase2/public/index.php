@@ -1,23 +1,30 @@
 <?php
 
-use Psr\Http\Message\ResponseInterface as Response;
-use Psr\Http\Message\ServerRequestInterface as Request;
+use DI\Container;
+use Rodri\Phase2\App\Http\Controllers\AppController;
 use Slim\Factory\AppFactory;
+use Slim\Routing\RouteCollectorProxy;
 use Slim\Views\Twig;
 
 require __DIR__ . '/../vendor/autoload.php';
 
+# Load dot env configuration
+$dotEnv = \Dotenv\Dotenv::createUnsafeImmutable(__DIR__.'/../');
+$dotEnv->load();
+
+# Slim framework config
+$container = new Container();
+AppFactory::setContainer($container);
 $app = AppFactory::create();
 
+# View template
 $twig = Twig::create(__DIR__ . '/../src/App/views', ['cache' => false]);
+$app->add(\Slim\Views\TwigMiddleware::create($app, $twig));
 
-$app->get('/question1', function (Request $request, Response $response, $args) {
-    $view = Twig::fromRequest($request);
-    return $view->render($response, 'content.html', [
-        'name' => 'Rodrigo Andrade'
-    ]);
+# Routes
+$app->group('/phase2', function (RouteCollectorProxy $group) {
+    $group->get('/question1/{imobiliariaId}',  [AppController::class, 'menuContent']);
 });
 
-
-$app->add(\Slim\Views\TwigMiddleware::create($app, $twig));
+# App configuration
 $app->run();
