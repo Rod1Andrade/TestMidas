@@ -1,11 +1,13 @@
 
+
 # Test aplicado para a empresa Midas
 
 Olá me chamo Rodrigo Andrade e esse repositório é destinado aos códigos do teste para *desenvolvedor PHP Junior na Midas Info Software e Tecnologia*. Sinta-se a vontade para deixar ``pull request`` do que implementaria. Por motivos de direitos sobre os problemas apresentado, eu não deixei as questões anexadas.
 
 <hr >
 
-Tecnologias: ``PHP`` ``Phalcon PHP framework``
+**Tecnologias**: ``PHP`` ``MySQL``
+**Status do teste**:  Não aprovado
 
 ## Expectativa
 
@@ -14,8 +16,6 @@ A expectativa da abordagem para o teste foi de uma implementação direita, por�
 * 1 . Fase de avaliação técnica e conhecimentos voltados a algoritmos
 * 2 . Fase de aplicação de um framework na resolução de um desafio.
 * 3 . Entrevista para alinhar cultura da empresa;
-
-**Status do teste**: Em andamento
 
 ## Repositório
 ```
@@ -36,12 +36,17 @@ Após a primeira fase do teste me senti animado para praticar mais lógica de pr
 
 ### Fase 2
 
-Não feita ainda. Volte depois para ver o relato.
+Mais detalhes na pasta ``phase2/``
 
 ### Fase 3
 
-Não feita ainda. Volte depois para ver o relato.
+Não avancei para a terceira fase.
 
 ## Conclusão
 
-Após passar pelas etapas, ou caso eu não avance para alguma, aqui vai estar o meu relato sobre o que achei sobre a aplicação para a vaga. Tentarei abordar "daft" técnicos que eu tive e apontar pontos positivos e negativos de fazer teste para a empresa em questão.
+Foi muito interessante participar desse processo seletivo, principalmente porque o recrutador se preocupou muito como algoritmos e soluções mais simples. Infelizmente não consegui passar, mas me serviu de bastante aprendizado.
+
+Pontos de melhoria:
+* Fazer desafios de algoritmos e estrutura de dados (Code wars, hackerrank, URI online Judge)
+* Estudar mais aprofundado banco de dados e a linguagem SQL
+* Praticar pensamento computacional
