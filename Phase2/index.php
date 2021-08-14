@@ -1,10 +1,17 @@
 <?php
+# Definições de Conexão
+define("HOST","testephp.infoideias.com.br");
+define("DB_NAME","phalcont_teste01");
+define("DB_USER","testephp.infoideias.com.br");
+define("DB_PASS","Ph01al98!@#");
+
+
 
 # Database connection
 $pdo = new PDO(
-    'mysql:host=testephp.infoideias.com.br;dbname=phalcont_teste01',
-    'phalcont_teste01',
-    'Ph01al98!@#',
+    'mysql:host='.HOST.';dbname='.DB_NAME,
+    DB_USER,
+    DB_PASS,
     [
         PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ,
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
